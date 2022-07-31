@@ -1,1 +1,1 @@
-sudo apt install openbox obconf obmenu lightdm
+sudo apt install openbox obconf lightdm

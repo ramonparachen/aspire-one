@@ -19,3 +19,9 @@ echo "	Caption: Midori" >> ~/.idesktop/firefox.lnk
 echo "	Icon: /usr/share/icons/hicolor/48x48/apps/firefox.png" >> ~/.idesktop/firefox.lnk
 echo "	Command[0]: midori" >> ~/.idesktop/firefox.lnk
 echo "end" >> ~/.idesktop/firefox.lnk
+
+mkdir ~/.config/openbox
+echo "tint2 &" > ~/.config/openbox/autostart.sh
+echo "idesk &" > ~/.config/openbox/autostart.sh
+chmod +x ~/.config/openbox/autostart.sh
+

@@ -23,5 +23,6 @@ echo "end" >> ~/.idesktop/firefox.lnk
 mkdir ~/.config/openbox
 echo "tint2 &" > ~/.config/openbox/autostart.sh
 echo "idesk &" > ~/.config/openbox/autostart.sh
+echo "nm-applet &" > ~/.config/openbox/autostart.sh
 chmod +x ~/.config/openbox/autostart.sh
 

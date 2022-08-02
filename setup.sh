@@ -1,4 +1,4 @@
-sudo apt install openbox obconf idesk tint2 xterm lightdm
+sudo apt install openbox obconf idesk tint2 network-manager network-manager-gnome xterm lightdm
 cp /usr/share/idesk/dot.ideskrc ~/.ideskrc
 mkdir ~/.idesktop
 

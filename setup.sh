@@ -1,4 +1,4 @@
-sudo apt install openbox obconf idesk tint2 network-manager network-manager-gnome xterm lightdm
+sudo apt install openbox obconf idesk tint2 network-manager network-manager-gnome cbatticon xterm lightdm
 cp /usr/share/idesk/dot.ideskrc ~/.ideskrc
 mkdir ~/.idesktop
 
@@ -24,5 +24,6 @@ mkdir ~/.config/openbox
 echo "tint2 &" > ~/.config/openbox/autostart.sh
 echo "idesk &" > ~/.config/openbox/autostart.sh
 echo "nm-applet &" > ~/.config/openbox/autostart.sh
+echo "cbatticon -l 20 -r 10 &" > ~/.config/openbox/autostart.sh
 chmod +x ~/.config/openbox/autostart.sh
 

@@ -1,4 +1,4 @@
-sudo apt install openbox obconf tint2 network-manager network-manager-gnome cbatticon xterm lightdm
+sudo apt install openbox obconf tint2 network-manager network-manager-gnome cbatticon volumeicon-alsa xterm lightdm
 echo "deb http://ftp.de.debian.org/debian bookworm main" | sudo tee -a /etc/apt/sources.list
 sudo apt update
 sudo apt install jgmenu

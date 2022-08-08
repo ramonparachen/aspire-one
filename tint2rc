@@ -188,6 +188,13 @@ ac_connected_cmd =
 ac_disconnected_cmd = 
 
 #-------------------------------------
+#jgmenu
+button = new
+button_icon = emblem-system
+button_tooltip = Menu
+button_lclick_command = /usr/bin/jgmenu_run
+
+#-------------------------------------
 # Tooltip
 tooltip_show_timeout = 0.5
 tooltip_hide_timeout = 0.1

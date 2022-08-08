@@ -1,0 +1,4 @@
+[Desktop Entry]
+Name=Terminal
+Exec=xterm
+Icon=utilities-terminal

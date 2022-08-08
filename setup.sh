@@ -8,9 +8,6 @@ cp /usr/share/idesk/dot.ideskrc ~/.ideskrc
 mkdir ~/.idesktop
 
 mkdir ~/.config/openbox
-echo "tint2 &" > ~/.config/openbox/autostart.sh
-echo "idesk &" > ~/.config/openbox/autostart.sh
-echo "nm-applet &" > ~/.config/openbox/autostart.sh
-echo "cbatticon -l 20 -r 10 &" > ~/.config/openbox/autostart.sh
+cp autostart.sh ~/.config/openbox/
 chmod +x ~/.config/openbox/autostart.sh
 

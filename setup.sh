@@ -8,5 +8,6 @@ mkdir ~/.config/openbox
 cp autostart.sh ~/.config/openbox/
 chmod +x ~/.config/openbox/autostart.sh
 
+mkdir ~/.config/tint2
 cp tint2rc ~/.config/tint2
 cp -r launchers ~/.config/tint2
